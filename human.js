@@ -9,8 +9,8 @@ var humans=function (req, res) {
             {firstName:'Ravi',lastName:'kotimbhire',age:43,Department:'testing'},
             {firstName:'Prashant',lastName:'gabhane',age:43,Department:'testing'},
             {firstName:'Rohit',lastName:'rathi',age:28,Department:'testing'},
-            {firstName:'Shiv',lastName:'karma',age:25,Department:'testing'},
-            {firstName:'Manoj',lastName:'shree',age:23,Department:'testing'}
+            {firstName:'Shiv',lastName:'karma',age:25,Department:'BA'},
+            {firstName:'Manoj',lastName:'shree',age:23,Department:'BA'}
       ];
   res.send(human);
 };
